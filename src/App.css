@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: lightblue;
+}
+
+.getData {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#username {
+  width: 460px;
+  height: 30px;
+  border: solid;
+}
+
+#username::placeholder {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button {
+  background: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  border-color: black;
+}
+
+img {
+  border-radius: 100%;
+}
